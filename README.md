@@ -88,7 +88,3 @@ git config --global log.date short
 12. `git tag -d <nameTag>` Удаление тега
 13. `git commit --amend -m "Added copyright statement with email"` С помощью аргумента `--amend` мы можем пересохранить уже существующий комит.
 14. 
-
-
-
-
