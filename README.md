@@ -96,8 +96,10 @@ git config --global log.date short
 17. `git merge main` Обьеденение текущей ветки в `main`
 18. `git merge --abort` Отмена обьеденение веток
 19. `git clone work home` Клонирование репозитория `work` в папку `home`
-20. `git remote`
+20. `git remote` Клонированный репозиторий знает имя удаленного репозитория по умолчанию
     
 ![ScreenShot36](screenshots/Screenshot_36.jpg)
+
+21. `git remote show origin` Чтобы получить дополнительную информацию о происхождении:
 
 ![ScreenShot37](screenshots/Screenshot_37.jpg)
