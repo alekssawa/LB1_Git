@@ -61,17 +61,34 @@ git commit -m "Initial Commit"
 git config --global format.pretty '%h %ad | %s%d [%an]'
 git config --global log.date short
 ```
+
 ![ScreenShot32](screenshots/Screenshot_32.jpg)
+
 4. `git checkout <hash>` мы можем перейти на определеную версию репозитория.
 
 ![ScreenShot33](screenshots/Screenshot_33.jpg)
 
 5. Переход между ветками `git switch main` так же можно использовать чтобы вернуться на последнюю версию репозитория.
-6. git tag <nameTag> можно создавать теги для версий, чтобы можно было обращаться по названию тегов а не по хешу.
+6. `git tag <nameTag>` можно создавать теги для версий, чтобы можно было обращаться по названию тегов а не по хешу.
+`git checkout v1`
 Например тут можно увидеть что версия имеет тег `tag: v1`
 
 `2d469d0 2024-08-29 | Added HTML header (tag: v1) [Babykiwii]`
 
 ![ScreenShot32](screenshots/Screenshot_32.jpg)
+
+7. `git tag` можно увидеть все теги в репозитории.
+   
+![ScreenShot34](screenshots/Screenshot_34.jpg)
+
+8. `git log main --all` проверить наличие тегов в журнале
+9. `git reset HEAD hello.html` Команда сбрасывает промежуточную область в положение. Это освобождает промежуточную область от изменений, которые мы только что осуществили
+10. `git revert HEAD` Чтобы отменить коммит, нам нужно создать коммит, который удаляет изменения, сохраненные нежелательным коммитом.
+11. `git reset --hard v1` Сброс фиксации до v1
+12. `git tag -d <nameTag>` Удаление тега
+13. `git commit --amend -m "Added copyright statement with email"` С помощью аргумента `--amend` мы можем пересохранить уже существующий комит.
+14. 
+
+
 
 
