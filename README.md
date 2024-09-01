@@ -81,7 +81,7 @@ git config --global log.date short
    
 ![ScreenShot34](screenshots/Screenshot_34.jpg)
 
-8. `git log main --all` проверить наличие тегов в журнале
+8. `git log main --all` Проверить наличие тегов в журнале
 9. `git reset HEAD hello.html` Команда сбрасывает промежуточную область в положение. Это освобождает промежуточную область от изменений, которые мы только что осуществили
 10. `git revert HEAD` Чтобы отменить коммит, нам нужно создать коммит, который удаляет изменения, сохраненные нежелательным коммитом.
 11. `git reset --hard v1` Сброс фиксации до v1
@@ -91,3 +91,13 @@ git config --global log.date short
 15. `git show v1` Сравнение разных версий конкретного файла
 
 ![ScreenShot35](screenshots/Screenshot_35.jpg)
+
+16. `git log --all --graph`  Проверить наличие тегов в журнале c графиком
+17. `git merge main` Обьеденение текущей ветки в `main`
+18. `git merge --abort` Отмена обьеденение веток
+19. `git clone work home` Клонирование репозитория `work` в папку `home`
+20. `git remote`
+    
+![ScreenShot36](screenshots/Screenshot_36.jpg)
+
+![ScreenShot37](screenshots/Screenshot_37.jpg)
