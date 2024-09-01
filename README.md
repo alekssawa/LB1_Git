@@ -87,4 +87,7 @@ git config --global log.date short
 11. `git reset --hard v1` Сброс фиксации до v1
 12. `git tag -d <nameTag>` Удаление тега
 13. `git commit --amend -m "Added copyright statement with email"` С помощью аргумента `--amend` мы можем пересохранить уже существующий комит.
-14. 
+14. `git switch -c style` Чтобы создать ветку с названием `style`
+15. `git show v1` Сравнение разных версий конкретного файла
+
+![ScreenShot35](screenshots/Screenshot_35.jpg)
